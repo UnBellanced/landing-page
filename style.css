@@ -142,3 +142,44 @@ p {
     font-size:24px;
     margin-left:525px;
 }
+
+/* The fourth container and it's children */
+.container4 {
+    justify-content: center;
+    align-items: center;
+    padding:100px;
+}
+.blue-rectangle {
+    display:flex;
+    background-color: #3882F6;
+    justify-content: space-between;
+    padding:40px;
+    padding-left:100px;
+    padding-right:100px;
+    width:800px;
+    border-radius: 10px;
+}
+.action-time {
+    display:flex;
+    flex-direction: column;
+}
+.first-line {
+    font-weight:bold;
+    font-size:22px;
+    color:white;
+}
+.second-line {
+    color:white;
+}
+.bottom-btn {
+    background-color: #3882F6;
+    border:2px solid white;
+    border-radius: 8px;
+    color:white;
+    height:30px;
+    padding-right:25px;
+    padding-left: 25px;
+    font-weight: bold;
+}
+
+/* The fourth container and it's children */
