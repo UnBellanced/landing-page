@@ -1,5 +1,10 @@
+
+/* Adding a border to all the flexboxes to make visualization easier */
 body,
 .header,
+.links,
+.under-header,
+.left-under-header,
 .container1,
 .container2,
 .container3,
@@ -13,20 +18,58 @@ body {
     flex-direction: column;
 }
 
-.header {
+/* The first container and it's children start here */
+.container1 {
+    flex-direction: column;
     background-color:#1f2937;
-    justify-content: space-between;
-    flex:1;
-    padding-left:100px;
-    padding-right: 100px;
     color:white;
+    padding-left: 200px;
+    padding-right: 200px;
+    gap:100px;
 }
 
+.header {
+    justify-content: space-between;
+}
+h4 {
+    font-size: 25px;
+}
 .links {
-    display:flex;
     align-self: center;
     gap:20px;
+    font-size:20px;
 }
 
-.container1 {
+.under-header {
+    justify-content: center;
+    padding-bottom: 125px;
 }
+.left-under-header{
+    flex-direction: column;
+    flex:1;
+}
+.place-holder {
+    display:flex;
+    flex:1;
+    align-items:center;
+    justify-content: center;
+    background-color: gray;
+}
+h2,p {
+    margin:0px;
+}
+h2 {
+    font-size:50px;
+    max-width: 375px;
+}
+p {
+    max-width: 375px;
+    margin-bottom: 10px;
+}
+.top-btn {
+    background-color: blue;
+    color:white;
+    width:100px;
+}
+
+/* The second container and it's children */
