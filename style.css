@@ -35,12 +35,15 @@ body {
     justify-content: space-between;
 }
 h4 {
-    font-size: 25px;
+    font-size: 24px;
+    font-family:roboto;
+    color:#F9FAF8;
 }
 .links {
     align-self: center;
     gap:20px;
     font-size:20px;
+    font-family:roboto;
 }
 
 .under-header {
@@ -59,9 +62,12 @@ h4 {
 }
 h2,p {
     margin:0px;
+    font-family:roboto;
 }
 h2 {
-    font-size:50px;
+    font-size:48px;
+    font-weight: bolder;
+    color: #F9FAF8;
     max-width: 375px;
 }
 p {
@@ -76,6 +82,8 @@ p {
     padding-bottom:6px;
     border-radius: 10px;
     border:none;
+    font-family:roboto;
+
 }
 
 /* The second container and it's children */
@@ -88,8 +96,10 @@ p {
     padding-bottom:100px;
 }
 .anoda-heada {
-    font-size:25px;
-    font-weight:bold;
+    font-size:36px;
+    font-weight:bolder;
+    font-family:roboto;
+    color:#1f2937;
 }
 .four-boxes {
     gap:50px;
@@ -107,5 +117,28 @@ p {
 .text{
     max-width: 150px;
     text-align: center;
+    font-family:roboto;
+
 }
 
+/* The third container and it's children */
+.container3{
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding:100px;
+}
+.quote {
+    font-family:roboto;
+    font-size:36px;
+    font-style: italic;
+    font-weight: 300;
+    color:#1F2937;
+    max-width: 790px;
+}
+.thor {
+    font-family:roboto;
+    font-weight: bolder;
+    font-size:24px;
+    margin-left:525px;
+}
