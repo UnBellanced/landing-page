@@ -1,9 +1,32 @@
 body,
+.header,
 .container1,
 .container2,
 .container3,
 .container4,
-.container5{
+.container5 {
     border:1px solid pink;
     display:flex;
+}
+
+body {
+    flex-direction: column;
+}
+
+.header {
+    background-color:#1f2937;
+    justify-content: space-between;
+    flex:1;
+    padding-left:100px;
+    padding-right: 100px;
+    color:white;
+}
+
+.links {
+    display:flex;
+    align-self: center;
+    gap:20px;
+}
+
+.container1 {
 }
