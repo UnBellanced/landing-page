@@ -1,18 +1,21 @@
 
-/* Adding a border to all the flexboxes to make visualization easier */
+/* Add a border to all the flexboxes to make visualization easier */
 body,
 .container1,
 .header,
 .links,
 .under-header,
 .left-under-header,
+.place-holder,
 .container2,
+.anoda-heada,
 .four-boxes,
 .box,
 .container3,
 .container4,
+.blue-rectangle,
+.action-time,
 .container5 {
-    border:1px solid purple;
     display:flex;
 }
 
@@ -41,7 +44,7 @@ h4 {
 }
 .links {
     align-self: center;
-    gap:20px;
+    gap:30px;
     font-size:20px;
     font-family:roboto;
 }
@@ -54,7 +57,6 @@ h4 {
     flex:1;
 }
 .place-holder {
-    display:flex;
     flex:1;
     align-items:center;
     justify-content: center;
@@ -150,7 +152,6 @@ p {
     padding:100px;
 }
 .blue-rectangle {
-    display:flex;
     background-color: #3882F6;
     justify-content: space-between;
     padding:40px;
@@ -160,7 +161,6 @@ p {
     border-radius: 10px;
 }
 .action-time {
-    display:flex;
     flex-direction: column;
 }
 .first-line {
@@ -182,4 +182,13 @@ p {
     font-weight: bold;
 }
 
-/* The fourth container and it's children */
+/* The fifth container and it's children */
+.container5 {
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding:35px;
+}
+.copyright {
+    color:white;
+}
